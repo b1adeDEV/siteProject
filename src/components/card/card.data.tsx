@@ -1,4 +1,9 @@
-import promoMD from "/public/assets/Copper_1.png"
+import copper_1 from "/public/assets/Copper_1.png"
+import copper_15 from "/public/assets/copper_15m.png"
+import ground_rods from "/public/assets/ground_rods.jpg"
+import galvanized_6 from "/public/assets/galvanized_6m.jpg"
+import galvanized_9 from "/public/assets/galvanized_9m.jpg"
+import galvanized_rods from "/public/assets/galvanized_rods.jpg"
 
 export interface ICardData {
     url:string
@@ -8,25 +13,25 @@ export interface ICardData {
 }
 
 export const CopperData:ICardData[] = [{
-    url:`${promoMD}`,
+    url:`${copper_1}`,
     cost:14890,
     title:"Комплект Заземления Омедненный 6м",
     count: 1
     },
     {
-        url:"/public/assets/Copper_1.png",
+        url:`${copper_1}`,
         cost:28990,
         title:"Комплект Заземления Омедненный 9м",
         count: 1
     },
     {
-        url:"/public/assets/copper_15m.png",
+        url:`${copper_15}`,
         cost:59990,
         title:"Комплект Заземления Омедненный 15м",
         count: 1
     },
     {
-        url:"/public/assets/ground_rods.jpg",
+        url:`${ground_rods}`,
         cost:14700,
         title:"Стержни Заземления Омедненные",
         count: 1
@@ -34,23 +39,23 @@ export const CopperData:ICardData[] = [{
 ]
 export const GalvanizedData:ICardData[] = [
     {
-        url:"/public/assets/galvanized_6m.jpg",
+        url:`${galvanized_6}`,
         cost:16800,
         title:"Комплект Заземления Оцинкованный 6м",
         count: 1
     },
     {
-        url:"/public/assets/galvanized_6m.jpg",
+        url:`${galvanized_6}`,
         cost:32990,
         title:"Комплект Заземления Оцинкованный 9м",
         count: 1
     },{
-        url:"/public/assets/galvanized_9m.jpg",
+        url:`${galvanized_9}`,
         cost:45600,
         title:"Комплект Заземления Оцинкованный 15м ",
         count: 1
     },{
-        url:"/public/assets/galvanized_rods.jpg",
+        url:`${galvanized_rods}`,
         cost:14990,
         title:"Cтержни Заземления Оцинкованные",
         count: 1

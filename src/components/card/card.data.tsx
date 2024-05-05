@@ -1,3 +1,5 @@
+import promoMD from "/public/assets/Copper_1.png"
+
 export interface ICardData {
     url:string
     cost: number
@@ -6,7 +8,7 @@ export interface ICardData {
 }
 
 export const CopperData:ICardData[] = [{
-    url:"/public/assets/Copper_1.png",
+    url:`${promoMD}`,
     cost:14890,
     title:"Комплект Заземления Омедненный 6м",
     count: 1

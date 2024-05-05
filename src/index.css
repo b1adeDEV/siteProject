@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+@media (min-width: 1024px) and (max-width: 1300px) {
+    .container {
+        width: 1024px;
+    }
+}
+
+@media (min-width: 789px) and (max-width: 1023px) {
+    .container {
+        width: 789px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 788px) {
+    .container {
+        width: 320px;
+    }
+}
+
+body::-webkit-scrollbar {
+    width: 12px; /* Ширина скроллбара */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Цвет фона трека скроллбара */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #888; /* Цвет ползунка скроллбара */
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Измененный цвет ползунка при наведении */
+}

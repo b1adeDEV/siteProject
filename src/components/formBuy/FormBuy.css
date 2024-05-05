@@ -1,0 +1,130 @@
+.buyContainer {
+    display: flex;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    background: -webkit-linear-gradient(90deg, #181a1e,#373a40,#484c56);
+    background: linear-gradient(90deg, #181a1e,#373a40,#484c56);
+}
+.buyContainer> h1 {
+    color: white;
+}
+.formBuy {
+    display: flex;
+    flex-direction: column;
+}
+.formBuy>div>input {
+    padding: 10px;
+}
+.emailTel {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailTel > div > h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+.formBuy > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid gray;
+    padding: 20px;
+    color: white;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+    .buyContainer {
+        height: 400px;
+    }
+    .FullName {
+        width: 180px;
+    }
+    .formBuy {
+        align-items: center;
+        justify-content: center;
+    }
+    .emailTel {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .formBuy > button {
+        margin-left: 0;
+    }
+    .formBuy > div > input {
+        margin-top: 20px;
+    }
+    .email {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 789px) and (max-width: 1023px) {
+    .buyContainer {
+        width: 300px;
+        height: 400px;
+    }
+    .FullName {
+        width: 180px;
+    }
+    .formBuy {
+        align-items: center;
+        justify-content: center;
+    }
+    .emailTel {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .formBuy > button {
+        margin-left: 0;
+    }
+    .formBuy > div > input {
+        margin-top: 20px;
+    }
+    .email {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 788px) {
+    .buyContainer {
+        width: 280px;
+        height: 400px;
+    }
+    .FullName {
+        width: 180px;
+    }
+    .formBuy {
+        align-items: center;
+        justify-content: center;
+    }
+    .emailTel {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .formBuy > button {
+        margin-left: 0;
+    }
+    .formBuy > div > input {
+        margin-top: 20px;
+    }
+    .email {
+        margin-bottom: 20px;
+    }
+}

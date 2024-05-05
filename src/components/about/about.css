@@ -1,0 +1,134 @@
+@import url('https://fonts.cdnfonts.com/css/bicubik');
+
+.AboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    justify-content: space-around;
+    background: -webkit-linear-gradient(90deg, #181a1e,#373a40,#484c56);
+    background: linear-gradient(90deg, #181a1e,#373a40,#484c56);
+}
+
+.AboutContainer > h2 {
+    font-family: 'Bicubik', sans-serif;
+    color: #fffffF;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+   font-size: 50px;
+    text-transform: uppercase;
+}
+
+.AboutCard {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    padding: 50px;
+    border-radius: 15px;
+    margin-left: 25px;
+    font-family: "Calibri Light", sans-serif;
+}
+
+
+.AboutCard> h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.AboutCard> p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+}
+.CardContainer {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.AboutCard:nth-child(1):before {
+    content: "";
+    background-image: url("/public/assets/money_icon.png");
+    background-size:100px 100px;
+    height: 500px;
+    scale: 1;
+    margin-bottom: 25px;
+    padding: 50px;
+    background-repeat: no-repeat;
+
+}
+
+.AboutCard:nth-child(2):before {
+    content: "";
+    background-image: url("/public/assets/truck.png");
+    background-size: 150px 80px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+
+}
+
+.AboutCard:nth-child(3):before {
+    content: "";
+    margin-bottom: 10px;
+    background-image: url("/public/assets/quality_icon.png");
+    background-size: 100px 100px;
+    height: 100px;
+    padding: 50px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+   .AboutContainer>h2 {
+       font-size: 45px;
+   }
+}
+
+@media (min-width: 789px) and (max-width: 1023px) {
+    .AboutContainer {
+        height: fit-content;
+    }
+    .AboutContainer>h2 {
+        font-size: 35px;
+    }
+    .CardContainer {
+        align-items: center;
+        height: 825px;
+        flex-direction: column;
+    }
+    .CardContainer > div > h2 {
+        font-size: 30px;
+    }
+    .CardContainer > div > p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .AboutCard {
+        align-items: center;
+    }
+
+    .AboutCard:nth-child(3):before {
+        background-size: 100px 100px;
+        background-repeat: no-repeat;
+        width: 100px;
+        padding: 100px 0 10px 0;
+    }
+    .AboutCard:nth-child(2):before {
+        background-size: 130px 70px;
+        background-repeat: no-repeat;
+        width: 150px;
+        padding: 70px 0 10px 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 788px) {
+    .aboutCompany {
+        display: none;
+    }
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+
+.contactFoot {
+    border-radius: 5px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    line-height: 80px;
+}
+.contactFoot>h1>h1 {
+    color: red;
+    margin-bottom: -30px;
+}
+.contactFoot>h1,h2 {
+    color: white;
+}
+
+.contactFoot>h2:nth-last-child(1) {
+    margin-left: 50px;
+}
+@media (min-width: 320px) and (max-width: 788px) {
+    .contactFoot {
+
+        height: 500px;
+        width: 300px;
+    }
+    .contactFoot>h2:nth-last-child(1) {
+        width: 300px;
+        margin-left: 0;
+    }
+
+}
+
+

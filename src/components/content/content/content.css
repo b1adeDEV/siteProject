@@ -1,0 +1,24 @@
+.content {
+    height: 900px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: -webkit-linear-gradient(90deg, #181a1e,#373a40,#484c56);
+    background: linear-gradient(90deg, #181a1e,#373a40,#484c56);
+}
+@media (min-width: 789px) and (max-width: 1023px) {
+    .content {
+        height: 1100px;
+        flex-direction: column;
+    }
+}
+@media (min-width: 320px) and (max-width: 788px) {
+    .content {
+        height: 1100px;
+        flex-direction: column;
+    }
+    .contactFoot > h2{
+        font-size: 20px;
+    }
+}

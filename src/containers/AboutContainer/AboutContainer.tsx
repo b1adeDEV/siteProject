@@ -17,6 +17,7 @@ const AboutContainer = () => {
 
     return (
         <motion.div
+            id={"info"}
             initial="hidden"
             whileInView="visible"
             viewport={{ amount : 0.8, once:true}}

@@ -6,10 +6,9 @@ const Footer = () => {
             <div className="footer">
                 <h1>TOO ИНТЕРКОМ</h1>
                 <nav>
-                    <a className={"footerLink"} href="#">Каталог</a>
-                    <a className={"footerLink"} href="#">Информация</a>
-                    <a className={"footerLink"} href="#">Доставка</a>
-                    <a className={"footerLink"} href="#">Контакты</a>
+                    <a className={"footerLink"} href="#catalog">Каталог</a>
+                    <a className={"footerLink"} href="#info">Информация</a>
+                    <a className={"footerLink"} href="#contact">Контакты</a>
                 </nav>
                 <div className={"icon"}>
                     <div className={"allIcon vkIcon"}></div>

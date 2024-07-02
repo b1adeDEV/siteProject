@@ -3,7 +3,7 @@ import Contact from "../contact/contact.tsx";
 import "./content.css"
 const Content = () => {
     return (
-        <div className="content">
+        <div id={"contact"} className="content">
             <Contact/>
             <Form/>
         </div>

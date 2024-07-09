@@ -12,6 +12,9 @@
     .promoMD {
         display: none;
     }
+    .promoSM {
+        display: none;
+    }
 }
 
 
@@ -23,23 +26,32 @@
     .promoFull {
         display: none;
     }
+    .promoSM {
+        display: none;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 544px) and (max-width: 1023px) {
     .promo {
         width:100%;
         height:400px;
+    }
+    .promoSM {
+        display: none;
     }
     .promoFull {
         display: none;
     }
 }
-@media (min-width: 320px) and (max-width: 788px) {
-    .promo {
-        width:100%;
-        height:350px;
+@media (min-width: 320px) and (max-width: 544px) {
+    .promoSM {
+        width:auto;
+        height: 500px;
     }
     .promoFull {
+        display: none;
+    }
+    .promoMD {
         display: none;
     }
 }

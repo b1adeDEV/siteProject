@@ -128,7 +128,41 @@
 }
 
 @media (min-width: 320px) and (max-width: 788px) {
-    .aboutCompany {
-        display: none;
+    .AboutContainer {
+        width: 100%;
+        height: fit-content;
+    }
+    .AboutContainer>h2 {
+        font-size: 25px;
+    }
+    .CardContainer {
+        align-items: center;
+        height: 825px;
+        flex-direction: column;
+    }
+    .CardContainer > div > h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .CardContainer > div > p {
+        width: 190px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .AboutCard {
+        width: 150px;
+        align-items: center;
+    }
+    .AboutCard:nth-child(3):before {
+        background-size: 100px 100px;
+        background-repeat: no-repeat;
+        width: 100px;
+        padding: 100px 0 10px 0;
+    }
+    .AboutCard:nth-child(2):before {
+        background-size: 130px 70px;
+        background-repeat: no-repeat;
+        width: 150px;
+        padding: 70px 0 10px 0;
     }
 }

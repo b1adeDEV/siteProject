@@ -55,6 +55,7 @@
 }
 
 .btnBuy {
+    margin-top: 25px;
     border: none;
     border-radius: 5px;
     background-color: #555555;
@@ -65,14 +66,16 @@
     transition: 0.5s;
 }
 
+
 .btnBuy:hover {
     transition: 0.5s;
     scale: 1.1;
 }
 
 .contentCard {
+    margin-left: 100px;
     display: grid;
-    grid-template-columns: 25.5% 25.5% 25.5% 25.5% ;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
 }
 
@@ -106,10 +109,11 @@
 
 @media (min-width: 1024px) and (max-width: 1300px) {
     .contentCard {
-        width: 1024px;
+        width: 800px;
+        margin-left:50px ;
         display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50%;
+        grid-template-columns: 40% 40% 40%;
+        grid-template-rows: 100%;
         justify-items: center;
     }
     .TitleProduct {
@@ -118,12 +122,14 @@
     }
 }
 
-@media (min-width: 789px) and (max-width: 1023px) {
+@media (min-width: 789px) and (max-width: 1025px) {
     .contentCard {
-        width: 768px;
+        width: 700px;
         display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 25%;
+        margin-left: 20px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50%;
+        align-items: center;
         justify-items: center;
     }
     .TitleProduct {
@@ -140,23 +146,20 @@
         transform: translateX(0px)!important;
     }
     .card {
-        display: none;
         width: 250px;
+        margin-bottom: 100px;
     }
 
     .card>img {
         width: 250px;
         height: 250px;
     }
-
-    .card:nth-child(even) {
-        display: block;
-    }
     .contentCard {
-        width: 320px;
+        margin-left: 10px;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 50%;
+        grid-template-rows: 35% 35% 35%;
+        height: fit-content;
         justify-items: center;
     }
 }

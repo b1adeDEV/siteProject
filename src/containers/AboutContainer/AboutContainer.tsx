@@ -20,7 +20,7 @@ const AboutContainer = () => {
             id={"info"}
             initial="hidden"
             whileInView="visible"
-            viewport={{ amount : 0.8, once:true}}
+            viewport={{ amount : 0.5, once:true}}
             className={"AboutContainer"}>
             <h2>
                 Привилегии нашей компании

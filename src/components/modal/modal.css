@@ -68,7 +68,7 @@
 
 .modalBTN {
     position: absolute;
-    top: 70%;
+    top: 66%;
     margin-left: 20px;
     border: 1px solid #ffffff;
     padding: 10px 20px;
@@ -90,14 +90,14 @@
 
 @media (min-width: 1024px) and (max-width: 1300px) {
     .modalBTN {
-        top: 73%;
+        top: 68%;
         padding: 10px 15px;
     }
 }
 
 @media (min-width: 789px) and (max-width: 1025px) {
     .modalBTN {
-        top: 72%;
+        top: 67%;
         padding: 10px 15px;
     }
 }
@@ -110,7 +110,7 @@
         width: 300px;
     }
     .modalBTN {
-        top: 75%;
+        top: 69%;
         padding: 5px 10px;
     }
     .modalInfo>p {
